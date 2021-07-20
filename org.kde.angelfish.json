@@ -55,7 +55,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/AndrewGaspar/corrosion",
-                    "commit": "343546419f56f56780bd92f3fcd51fc02a598de6"
+                    "commit": "b7a78deb2632b502717c7b636a925677a99e06a1"
                 },
                 "generated/corrosion-generated-sources.json"
             ]
@@ -84,16 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.06/angelfish-21.06.tar.xz",
-                    "sha256": "8878261bf0de6943e7457955214f0ffe851c6083627a7626476cc8f50e18777b"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/0001-Fix-organization-domain.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "patches/0001-Fix-adding-webapps-in-flatpak.patch"
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.07/angelfish-21.07.tar.xz",
+                    "sha256": "7bd4cf26197d5cb611890e65355a678adee44fb5102f538e5544a46084fedd7e"
                 },
                 "generated-sources.json"
             ]
