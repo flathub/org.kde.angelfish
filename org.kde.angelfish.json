@@ -87,7 +87,7 @@
                     "url": "https://download.kde.org/stable/plasma-mobile/21.08/angelfish-21.08.tar.xz",
                     "sha256": "d07660a06ccd2ab287e6ee7fd5882452a49290d59122598f397ca51214a4fbbf"
                 },
-                "generated-sources.json"
+                "generated/generated-sources.json"
             ]
         }
     ]
