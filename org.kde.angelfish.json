@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.04/angelfish-22.04.tar.xz",
-                    "sha256": "0a2f4dcb0b2c410a95645abb46e84567c3c63633e87e69e3489a7557fd842b99"
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/angelfish-22.06.tar.xz",
+                    "sha256": "6e8c743d2e56725bc63113c857e2e647cd389129cd5b023ac964cd08f8fc3369"
                 },
                 "generated/generated-sources.json"
             ]
