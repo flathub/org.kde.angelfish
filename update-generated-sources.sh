@@ -11,6 +11,9 @@ if [ -z ${TAG} ]; then
 	exit 1
 fi
 
-wget -O generated/corrosion-generated-sources.json https://invent.kde.org/plasma-mobile/angelfish/-/raw/${TAG}/flatpak/corrosion-generated-sources.json
-wget -O generated/generated-sources.json https://invent.kde.org/plasma-mobile/angelfish/-/raw/${TAG}/flatpak/generated-sources.json
+files="kf5feedback.json corrosion.json generated-sources.json"
+
+for file in $files; do
+	wget -O generated/${file} https://invent.kde.org/plasma-mobile/angelfish/-/raw/${TAG}/flatpak/$file
+done
 
