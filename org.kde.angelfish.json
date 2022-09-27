@@ -42,7 +42,9 @@
         {
             "name": "corrosion",
             "buildsystem": "cmake-ninja",
-            "config-opts": [ "-DCORROSION_BUILD_TESTS=OFF" ],
+            "config-opts": [
+                "-DCORROSION_BUILD_TESTS=OFF"
+            ],
             "build-options": {
                 "env": {
                     "CARGO_HOME": "/run/build/corrosion/cargo"
@@ -74,7 +76,11 @@
         {
             "name": "angelfish",
             "buildsystem": "cmake-ninja",
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release", "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"],
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"
+            ],
             "builddir": true,
             "build-options": {
                 "env": {
@@ -84,8 +90,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/angelfish-22.06.tar.xz",
-                    "sha256": "6e8c743d2e56725bc63113c857e2e647cd389129cd5b023ac964cd08f8fc3369",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/angelfish-22.09.tar.xz",
+                    "sha256": "9db3088d1dd4c6d725eb84b0ca1cd5e54a92360623d788b9fc21a8d909b290ae",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229048,
