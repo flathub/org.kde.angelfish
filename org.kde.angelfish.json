@@ -39,40 +39,8 @@
         }
     },
     "modules": [
-        {
-            "name": "corrosion",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DCORROSION_BUILD_TESTS=OFF"
-            ],
-            "build-options": {
-                "env": {
-                    "CARGO_HOME": "/run/build/corrosion/cargo"
-                }
-            },
-            "cleanup": [
-                "/app"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://github.com/AndrewGaspar/corrosion",
-                    "commit": "9e42e832d1ce207d6669a4ff898d705fdc3c98c2"
-                },
-                "generated/corrosion-generated-sources.json"
-            ]
-        },
-        {
-            "name": "kf5feedback",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://invent.kde.org/jbbgameich/qtfeedback/",
-                    "commit": "a2fe291197c3a8912dbd1bc0a870c081c446e317"
-                }
-            ]
-        },
+        "generated/corrosion.json",
+        "generated/kf5feedback.json",
         {
             "name": "angelfish",
             "buildsystem": "cmake-ninja",
