@@ -58,8 +58,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/angelfish-22.09.tar.xz",
-                    "sha256": "9db3088d1dd4c6d725eb84b0ca1cd5e54a92360623d788b9fc21a8d909b290ae",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/angelfish-22.11.tar.xz",
+                    "sha256": "3e69ab543fe7bc8a4faf23176b79d0002a36c9f7d8ccffe170301f860c31f71d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229048,
