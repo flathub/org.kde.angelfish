@@ -42,6 +42,27 @@
         "generated/corrosion.json",
         "generated/kf5feedback.json",
         {
+            "name": "kirigami-addons",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.0.tar.xz",
+                    "sha256": "0132a58b150229544a61e17e792c48cfc6daa03a8be9c7acd873a6c30d283df7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "angelfish",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -58,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/angelfish-22.11.tar.xz",
-                    "sha256": "3e69ab543fe7bc8a4faf23176b79d0002a36c9f7d8ccffe170301f860c31f71d",
+                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/angelfish-23.01.0.tar.xz",
+                    "sha256": "771ca0bb2f5c9e32d5fbc801cd69477aa14d5c926c3900c866289f223bd2f5df",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229048,
