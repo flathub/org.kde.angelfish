@@ -55,7 +55,7 @@
                     "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 8763,
+                        "project-id": 242933,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
                     }
@@ -83,7 +83,7 @@
                     "sha256": "8394abf209d8dc3ae5c61bd3adcb32875f7991913afbed5c1e41c460ddf0691b",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 229048,
+                        "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/angelfish-$version.tar.xz"
                     }
