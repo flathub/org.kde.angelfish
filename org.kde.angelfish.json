@@ -79,13 +79,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/angelfish-23.01.0.tar.xz",
-                    "sha256": "771ca0bb2f5c9e32d5fbc801cd69477aa14d5c926c3900c866289f223bd2f5df",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/angelfish-23.04.0.tar.xz",
+                    "sha256": "8394abf209d8dc3ae5c61bd3adcb32875f7991913afbed5c1e41c460ddf0691b",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 229048,
+                        "project-id": 8763,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/angelfish-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/angelfish-$version.tar.xz"
                     }
                 },
                 "generated/generated-sources.json"
