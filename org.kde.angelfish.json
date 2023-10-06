@@ -133,5 +133,12 @@
                 "generated/generated-sources.json"
             ]
         }
+    ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/lib/x86_64-linux-gnu/cmake",
+        "/lib/x86_64-linux-gnu/pkgconfig"
     ]
 }
