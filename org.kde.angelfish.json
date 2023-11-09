@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/angelfish-23.08.2.tar.xz",
-                    "sha256": "a7f68e425d8b392762b228314eb6aa63a57a0742fb1c15c2f38538820faf5d19",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/angelfish-23.08.3.tar.xz",
+                    "sha256": "eb653ad40c2455c2dc6f5ae5afc66a2afffdfd0cb867d2b26b5530a5104c18b9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
