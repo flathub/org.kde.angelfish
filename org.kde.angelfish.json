@@ -15,7 +15,8 @@
         "--device=dri",
         "--filesystem=~/.local/share/applications/",
         "--filesystem=xdg-download",
-        "--talk-name=org.freedesktop.Notifications"
+        "--talk-name=org.freedesktop.Notifications",
+        "--env=QML_IMPORT_PATH=/app/qml"
     ],
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
@@ -40,7 +41,6 @@
     },
     "modules": [
         "generated/corrosion.json",
-        "generated/kf5feedback.json",
         {
             "name": "qcoro",
             "buildsystem": "cmake-ninja",
@@ -67,7 +67,9 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release"
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DBUILD_WITH_QT6=ON",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "sources": [
                 {
@@ -110,7 +112,7 @@
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
                 "-DCMAKE_BUILD_TYPE=Release",
-                "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"
+                "-DQt6Feedback_DIR=/app/lib/cmake/Qt6Feedback"
             ],
             "builddir": true,
             "build-options": {
