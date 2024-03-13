@@ -40,7 +40,6 @@
     },
     "modules": [
         "generated/corrosion.json",
-        "generated/kf5feedback.json",
         {
             "name": "qcoro",
             "buildsystem": "cmake-ninja",
