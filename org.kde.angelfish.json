@@ -15,7 +15,8 @@
         "--device=dri",
         "--filesystem=~/.local/share/applications/",
         "--filesystem=xdg-download",
-        "--talk-name=org.freedesktop.Notifications"
+        "--talk-name=org.freedesktop.Notifications",
+        "--env=QML_IMPORT_PATH=/app/qml"
     ],
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
