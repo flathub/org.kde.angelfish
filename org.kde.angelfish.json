@@ -66,7 +66,8 @@
             "buildsystem": "cmake-ninja",
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release"
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DBUILD_WITH_QT6=ON"
             ],
             "sources": [
                 {
@@ -92,8 +93,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.0.1.tar.xz",
-                    "sha256": "9d013847efb0048c6a2799ee0ed281b14eee15314ac20d7fba853197e45f29b7",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.1.0.tar.xz",
+                    "sha256": "8ef352499139616b3142a6d7a92ab23749c568403ece8d854f064a941d085536",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -120,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/angelfish-24.02.0.tar.xz",
-                    "sha256": "820e6e2db1dd7528519976ffabc42a74df8dcd3ba189d743c1d2548d4197e9a0",
+                    "url": "https://download.kde.org/stable/release-service/24.02.2/src/angelfish-24.02.2.tar.xz",
+                    "sha256": "5d3ab074739428b6d30f6a12d683a05f10dff61f543b0539f5a19a15fc4c83f1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
