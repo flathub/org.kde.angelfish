@@ -131,11 +131,7 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/angelfish-$version.tar.xz"
                     }
                 },
-                "generated/generated-sources.json",
-                {
-                    "type": "patch",
-                    "path": "patches/fix-settings.patch"
-                }
+                "generated/generated-sources.json"
             ]
         }
     ],
