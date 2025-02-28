@@ -7,16 +7,16 @@
     "base-version": "6.8",
     "command": "angelfish",
     "finish-args": [
+        "--device=dri",
+        "--env=QML_IMPORT_PATH=/app/qml",
+        "--filesystem=xdg-download",
+        "--filesystem=~/.local/share/applications/",
         "--share=ipc",
         "--share=network",
-        "--socket=pulseaudio",
         "--socket=fallback-x11",
+        "--socket=pulseaudio",
         "--socket=wayland",
-        "--device=dri",
-        "--filesystem=~/.local/share/applications/",
-        "--filesystem=xdg-download",
-        "--talk-name=org.freedesktop.Notifications",
-        "--env=QML_IMPORT_PATH=/app/qml"
+        "--talk-name=org.freedesktop.Notifications"
     ],
     "add-extensions": {
         "org.freedesktop.Platform.ffmpeg-full": {
