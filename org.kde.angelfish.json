@@ -28,6 +28,16 @@
     "cleanup-commands": [
         "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/lib/*/cmake",
+        "/lib/*/pkgconfig",
+        "/mkspecs",
+        "/share/cmake",
+        "/share/kdevappwizard"
+    ],
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
