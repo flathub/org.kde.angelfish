@@ -18,16 +18,6 @@
         "--socket=wayland",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "directory": "lib/ffmpeg",
-            "add-ld-path": ".",
-            "version": "24.08"
-        }
-    },
-    "cleanup-commands": [
-        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
-    ],
     "cleanup": [
         "/include",
         "/lib/cmake",
