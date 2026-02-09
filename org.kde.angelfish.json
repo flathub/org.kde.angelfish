@@ -25,6 +25,9 @@
         "/lib/x86_64-linux-gnu/cmake",
         "/lib/x86_64-linux-gnu/pkgconfig"
     ],
+    "cleanup-commands": [
+        "/app/cleanup-BaseApp.sh"
+    ],
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
     ],
